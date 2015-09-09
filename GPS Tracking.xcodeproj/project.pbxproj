@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA4D02631BA89A2100FEFD9D /* InfoCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D02621BA89A2100FEFD9D /* InfoCustomCell.swift */; };
+		AA4D02651BA89A6200FEFD9D /* InstallDeviceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D02641BA89A6200FEFD9D /* InstallDeviceController.swift */; };
+		AA4D02671BA89A8700FEFD9D /* CompleteInstallationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D02661BA89A8700FEFD9D /* CompleteInstallationController.swift */; };
+		AA4D02691BA89AB800FEFD9D /* BarcodeDetectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D02681BA89AB800FEFD9D /* BarcodeDetectionController.swift */; };
+		AA4D026B1BA89ADE00FEFD9D /* VinService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D026A1BA89ADE00FEFD9D /* VinService.swift */; };
+		AA4D026D1BA89AFE00FEFD9D /* TestDeviceCommandController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D026C1BA89AFE00FEFD9D /* TestDeviceCommandController.swift */; };
+		AA4D026F1BA89B2A00FEFD9D /* InstallRequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D026E1BA89B2A00FEFD9D /* InstallRequestController.swift */; };
+		AA4D02711BA89B5700FEFD9D /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D02701BA89B5700FEFD9D /* CustomCell.swift */; };
+		AA76B2BB1BA0739500985565 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA76B2BA1BA0739500985565 /* Global.swift */; };
+		AA76B2BD1BA0746400985565 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA76B2BC1BA0746400985565 /* Alamofire.swift */; };
+		AA76B2C21BA074EA00985565 /* DateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA76B2BE1BA074EA00985565 /* DateUtil.swift */; };
+		AA76B2C31BA074EA00985565 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA76B2BF1BA074EA00985565 /* Reachability.swift */; };
+		AA76B2C41BA074EA00985565 /* ResponsiveTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA76B2C01BA074EA00985565 /* ResponsiveTextFieldViewController.swift */; };
+		AA76B2C51BA074EA00985565 /* TextFieldScrollingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA76B2C11BA074EA00985565 /* TextFieldScrollingController.swift */; };
+		AA7D57DE1BA896B9001B524A /* InstallerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7D57DC1BA896B9001B524A /* InstallerController.swift */; };
+		AA7D57DF1BA896B9001B524A /* SavedDeviceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7D57DD1BA896B9001B524A /* SavedDeviceController.swift */; };
+		AA82E03A1BA70B8100369E75 /* TestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA82E0391BA70B8100369E75 /* TestController.swift */; };
+		AAA6A2DD1BA39D4200CF15A6 /* DashBoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA6A2DC1BA39D4200CF15A6 /* DashBoardController.swift */; };
+		AAA6A2DF1BA39D8900CF15A6 /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA6A2DE1BA39D8900CF15A6 /* SettingController.swift */; };
 		AAB7DEBC1B9FD4300080C07A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DEBB1B9FD4300080C07A /* AppDelegate.swift */; };
 		AAB7DEBF1B9FD4300080C07A /* GPS_Tracking.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DEBD1B9FD4300080C07A /* GPS_Tracking.xcdatamodeld */; };
 		AAB7DEC11B9FD4300080C07A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DEC01B9FD4300080C07A /* ViewController.swift */; };
@@ -14,6 +33,22 @@
 		AAB7DEC61B9FD4300080C07A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB7DEC51B9FD4300080C07A /* Images.xcassets */; };
 		AAB7DEC91B9FD4300080C07A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAB7DEC71B9FD4300080C07A /* LaunchScreen.xib */; };
 		AAB7DED51B9FD4300080C07A /* GPS_TrackingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DED41B9FD4300080C07A /* GPS_TrackingTests.swift */; };
+		AAB7DEE41B9FDA260080C07A /* StringUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DEE11B9FDA260080C07A /* StringUtil.swift */; };
+		AAB7DEE51B9FDA260080C07A /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DEE21B9FDA260080C07A /* SwiftyJSON.swift */; };
+		AAB7DEE61B9FDA260080C07A /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DEE31B9FDA260080C07A /* Toast.swift */; };
+		AAB7DEEC1B9FDA8B0080C07A /* AppSettingEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DEE71B9FDA8B0080C07A /* AppSettingEntity.swift */; };
+		AAB7DEED1B9FDA8B0080C07A /* CommandStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DEE81B9FDA8B0080C07A /* CommandStatus.swift */; };
+		AAB7DEEE1B9FDA8B0080C07A /* InstalledDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DEE91B9FDA8B0080C07A /* InstalledDevice.swift */; };
+		AAB7DEEF1B9FDA8B0080C07A /* SavedDeviceEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DEEA1B9FDA8B0080C07A /* SavedDeviceEntity.swift */; };
+		AAB7DEF01B9FDA8B0080C07A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DEEB1B9FDA8B0080C07A /* User.swift */; };
+		AAB7DEF21B9FDAA90080C07A /* InstallationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DEF11B9FDAA90080C07A /* InstallationInfo.swift */; };
+		AAB7DEFA1B9FDAFF0080C07A /* AppSettingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DEF31B9FDAFF0080C07A /* AppSettingService.swift */; };
+		AAB7DEFB1B9FDAFF0080C07A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DEF41B9FDAFF0080C07A /* Constants.swift */; };
+		AAB7DEFC1B9FDAFF0080C07A /* DeviceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DEF51B9FDAFF0080C07A /* DeviceService.swift */; };
+		AAB7DEFD1B9FDAFF0080C07A /* InstallationRequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DEF61B9FDAFF0080C07A /* InstallationRequestService.swift */; };
+		AAB7DEFE1B9FDAFF0080C07A /* SavedDeviceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DEF71B9FDAFF0080C07A /* SavedDeviceService.swift */; };
+		AAB7DEFF1B9FDAFF0080C07A /* ServiceBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DEF81B9FDAFF0080C07A /* ServiceBase.swift */; };
+		AAB7DF001B9FDAFF0080C07A /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DEF91B9FDAFF0080C07A /* UserService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +62,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA4D02621BA89A2100FEFD9D /* InfoCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoCustomCell.swift; sourceTree = "<group>"; };
+		AA4D02641BA89A6200FEFD9D /* InstallDeviceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstallDeviceController.swift; sourceTree = "<group>"; };
+		AA4D02661BA89A8700FEFD9D /* CompleteInstallationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteInstallationController.swift; sourceTree = "<group>"; };
+		AA4D02681BA89AB800FEFD9D /* BarcodeDetectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcodeDetectionController.swift; sourceTree = "<group>"; };
+		AA4D026A1BA89ADE00FEFD9D /* VinService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VinService.swift; sourceTree = "<group>"; };
+		AA4D026C1BA89AFE00FEFD9D /* TestDeviceCommandController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDeviceCommandController.swift; sourceTree = "<group>"; };
+		AA4D026E1BA89B2A00FEFD9D /* InstallRequestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstallRequestController.swift; sourceTree = "<group>"; };
+		AA4D02701BA89B5700FEFD9D /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		AA76B2BA1BA0739500985565 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		AA76B2BC1BA0746400985565 /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		AA76B2BE1BA074EA00985565 /* DateUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtil.swift; sourceTree = "<group>"; };
+		AA76B2BF1BA074EA00985565 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		AA76B2C01BA074EA00985565 /* ResponsiveTextFieldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponsiveTextFieldViewController.swift; sourceTree = "<group>"; };
+		AA76B2C11BA074EA00985565 /* TextFieldScrollingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldScrollingController.swift; sourceTree = "<group>"; };
+		AA7D57DC1BA896B9001B524A /* InstallerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstallerController.swift; sourceTree = "<group>"; };
+		AA7D57DD1BA896B9001B524A /* SavedDeviceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedDeviceController.swift; sourceTree = "<group>"; };
+		AA82E0391BA70B8100369E75 /* TestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
+		AAA6A2DC1BA39D4200CF15A6 /* DashBoardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashBoardController.swift; sourceTree = "<group>"; };
+		AAA6A2DE1BA39D8900CF15A6 /* SettingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
 		AAB7DEB61B9FD4300080C07A /* GPS Tracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPS Tracking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB7DEBA1B9FD4300080C07A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAB7DEBB1B9FD4300080C07A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +92,22 @@
 		AAB7DECE1B9FD4300080C07A /* GPS TrackingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GPS TrackingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB7DED31B9FD4300080C07A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAB7DED41B9FD4300080C07A /* GPS_TrackingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPS_TrackingTests.swift; sourceTree = "<group>"; };
+		AAB7DEE11B9FDA260080C07A /* StringUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringUtil.swift; sourceTree = "<group>"; };
+		AAB7DEE21B9FDA260080C07A /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		AAB7DEE31B9FDA260080C07A /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		AAB7DEE71B9FDA8B0080C07A /* AppSettingEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSettingEntity.swift; sourceTree = "<group>"; };
+		AAB7DEE81B9FDA8B0080C07A /* CommandStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandStatus.swift; sourceTree = "<group>"; };
+		AAB7DEE91B9FDA8B0080C07A /* InstalledDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstalledDevice.swift; sourceTree = "<group>"; };
+		AAB7DEEA1B9FDA8B0080C07A /* SavedDeviceEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedDeviceEntity.swift; sourceTree = "<group>"; };
+		AAB7DEEB1B9FDA8B0080C07A /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AAB7DEF11B9FDAA90080C07A /* InstallationInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstallationInfo.swift; sourceTree = "<group>"; };
+		AAB7DEF31B9FDAFF0080C07A /* AppSettingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSettingService.swift; sourceTree = "<group>"; };
+		AAB7DEF41B9FDAFF0080C07A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AAB7DEF51B9FDAFF0080C07A /* DeviceService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceService.swift; sourceTree = "<group>"; };
+		AAB7DEF61B9FDAFF0080C07A /* InstallationRequestService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstallationRequestService.swift; sourceTree = "<group>"; };
+		AAB7DEF71B9FDAFF0080C07A /* SavedDeviceService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedDeviceService.swift; sourceTree = "<group>"; };
+		AAB7DEF81B9FDAFF0080C07A /* ServiceBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceBase.swift; sourceTree = "<group>"; };
+		AAB7DEF91B9FDAFF0080C07A /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +128,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA76B2B91BA06FE500985565 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AA4D02701BA89B5700FEFD9D /* CustomCell.swift */,
+				AA4D026E1BA89B2A00FEFD9D /* InstallRequestController.swift */,
+				AA4D026C1BA89AFE00FEFD9D /* TestDeviceCommandController.swift */,
+				AA4D02681BA89AB800FEFD9D /* BarcodeDetectionController.swift */,
+				AA4D02621BA89A2100FEFD9D /* InfoCustomCell.swift */,
+				AA7D57DC1BA896B9001B524A /* InstallerController.swift */,
+				AA4D02661BA89A8700FEFD9D /* CompleteInstallationController.swift */,
+				AA4D02641BA89A6200FEFD9D /* InstallDeviceController.swift */,
+				AA7D57DD1BA896B9001B524A /* SavedDeviceController.swift */,
+				AAA6A2DE1BA39D8900CF15A6 /* SettingController.swift */,
+				AA76B2BA1BA0739500985565 /* Global.swift */,
+				AAB7DEC01B9FD4300080C07A /* ViewController.swift */,
+				AAA6A2DC1BA39D4200CF15A6 /* DashBoardController.swift */,
+				AA82E0391BA70B8100369E75 /* TestController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		AAB7DEAD1B9FD4300080C07A = {
 			isa = PBXGroup;
 			children = (
@@ -79,8 +170,11 @@
 		AAB7DEB81B9FD4300080C07A /* GPS Tracking */ = {
 			isa = PBXGroup;
 			children = (
+				AA76B2B91BA06FE500985565 /* Controller */,
+				AAB7DEE01B9FD9F10080C07A /* Service */,
+				AAB7DEDF1B9FD9EA0080C07A /* Model */,
+				AAB7DEDE1B9FD9E10080C07A /* Util */,
 				AAB7DEBB1B9FD4300080C07A /* AppDelegate.swift */,
-				AAB7DEC01B9FD4300080C07A /* ViewController.swift */,
 				AAB7DEC21B9FD4300080C07A /* Main.storyboard */,
 				AAB7DEC51B9FD4300080C07A /* Images.xcassets */,
 				AAB7DEC71B9FD4300080C07A /* LaunchScreen.xib */,
@@ -113,6 +207,49 @@
 				AAB7DED31B9FD4300080C07A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAB7DEDE1B9FD9E10080C07A /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				AA76B2BE1BA074EA00985565 /* DateUtil.swift */,
+				AA76B2BF1BA074EA00985565 /* Reachability.swift */,
+				AA76B2C01BA074EA00985565 /* ResponsiveTextFieldViewController.swift */,
+				AA76B2C11BA074EA00985565 /* TextFieldScrollingController.swift */,
+				AA76B2BC1BA0746400985565 /* Alamofire.swift */,
+				AAB7DEE11B9FDA260080C07A /* StringUtil.swift */,
+				AAB7DEE21B9FDA260080C07A /* SwiftyJSON.swift */,
+				AAB7DEE31B9FDA260080C07A /* Toast.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		AAB7DEDF1B9FD9EA0080C07A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AAB7DEF11B9FDAA90080C07A /* InstallationInfo.swift */,
+				AAB7DEE71B9FDA8B0080C07A /* AppSettingEntity.swift */,
+				AAB7DEE81B9FDA8B0080C07A /* CommandStatus.swift */,
+				AAB7DEE91B9FDA8B0080C07A /* InstalledDevice.swift */,
+				AAB7DEEA1B9FDA8B0080C07A /* SavedDeviceEntity.swift */,
+				AAB7DEEB1B9FDA8B0080C07A /* User.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AAB7DEE01B9FD9F10080C07A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				AA4D026A1BA89ADE00FEFD9D /* VinService.swift */,
+				AAB7DEF31B9FDAFF0080C07A /* AppSettingService.swift */,
+				AAB7DEF41B9FDAFF0080C07A /* Constants.swift */,
+				AAB7DEF51B9FDAFF0080C07A /* DeviceService.swift */,
+				AAB7DEF61B9FDAFF0080C07A /* InstallationRequestService.swift */,
+				AAB7DEF71B9FDAFF0080C07A /* SavedDeviceService.swift */,
+				AAB7DEF81B9FDAFF0080C07A /* ServiceBase.swift */,
+				AAB7DEF91B9FDAFF0080C07A /* UserService.swift */,
+			);
+			name = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,7 +296,9 @@
 		AAB7DEAE1B9FD4300080C07A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0620;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Skypatrol;
 				TargetAttributes = {
 					AAB7DEB51B9FD4300080C07A = {
@@ -215,9 +354,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA4D02691BA89AB800FEFD9D /* BarcodeDetectionController.swift in Sources */,
+				AA4D026D1BA89AFE00FEFD9D /* TestDeviceCommandController.swift in Sources */,
+				AAA6A2DF1BA39D8900CF15A6 /* SettingController.swift in Sources */,
+				AA76B2C51BA074EA00985565 /* TextFieldScrollingController.swift in Sources */,
+				AA76B2C41BA074EA00985565 /* ResponsiveTextFieldViewController.swift in Sources */,
+				AA4D026B1BA89ADE00FEFD9D /* VinService.swift in Sources */,
+				AA4D02651BA89A6200FEFD9D /* InstallDeviceController.swift in Sources */,
+				AA4D02631BA89A2100FEFD9D /* InfoCustomCell.swift in Sources */,
+				AA4D02711BA89B5700FEFD9D /* CustomCell.swift in Sources */,
+				AAB7DEE41B9FDA260080C07A /* StringUtil.swift in Sources */,
+				AA4D02671BA89A8700FEFD9D /* CompleteInstallationController.swift in Sources */,
+				AA76B2C21BA074EA00985565 /* DateUtil.swift in Sources */,
+				AAB7DEED1B9FDA8B0080C07A /* CommandStatus.swift in Sources */,
+				AAB7DEEE1B9FDA8B0080C07A /* InstalledDevice.swift in Sources */,
+				AA7D57DF1BA896B9001B524A /* SavedDeviceController.swift in Sources */,
+				AAB7DEE61B9FDA260080C07A /* Toast.swift in Sources */,
+				AAB7DEEF1B9FDA8B0080C07A /* SavedDeviceEntity.swift in Sources */,
 				AAB7DEC11B9FD4300080C07A /* ViewController.swift in Sources */,
+				AA76B2BD1BA0746400985565 /* Alamofire.swift in Sources */,
+				AAB7DEEC1B9FDA8B0080C07A /* AppSettingEntity.swift in Sources */,
+				AAB7DEF21B9FDAA90080C07A /* InstallationInfo.swift in Sources */,
+				AA76B2BB1BA0739500985565 /* Global.swift in Sources */,
+				AAB7DEFF1B9FDAFF0080C07A /* ServiceBase.swift in Sources */,
 				AAB7DEBC1B9FD4300080C07A /* AppDelegate.swift in Sources */,
+				AAB7DEFA1B9FDAFF0080C07A /* AppSettingService.swift in Sources */,
+				AAB7DEE51B9FDA260080C07A /* SwiftyJSON.swift in Sources */,
+				AA76B2C31BA074EA00985565 /* Reachability.swift in Sources */,
+				AAA6A2DD1BA39D4200CF15A6 /* DashBoardController.swift in Sources */,
+				AAB7DEFB1B9FDAFF0080C07A /* Constants.swift in Sources */,
+				AAB7DF001B9FDAFF0080C07A /* UserService.swift in Sources */,
 				AAB7DEBF1B9FD4300080C07A /* GPS_Tracking.xcdatamodeld in Sources */,
+				AA4D026F1BA89B2A00FEFD9D /* InstallRequestController.swift in Sources */,
+				AAB7DEF01B9FDA8B0080C07A /* User.swift in Sources */,
+				AAB7DEFD1B9FDAFF0080C07A /* InstallationRequestService.swift in Sources */,
+				AA7D57DE1BA896B9001B524A /* InstallerController.swift in Sources */,
+				AAB7DEFE1B9FDAFF0080C07A /* SavedDeviceService.swift in Sources */,
+				AAB7DEFC1B9FDAFF0080C07A /* DeviceService.swift in Sources */,
+				AA82E03A1BA70B8100369E75 /* TestController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +453,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -344,6 +519,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "GPS Tracking/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kphan-spypatrol.com.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -354,6 +530,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "GPS Tracking/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kphan-spypatrol.com.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -372,6 +549,7 @@
 				);
 				INFOPLIST_FILE = "GPS TrackingTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kphan-spypatrol.com.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPS Tracking.app/GPS Tracking";
 			};
@@ -387,6 +565,7 @@
 				);
 				INFOPLIST_FILE = "GPS TrackingTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kphan-spypatrol.com.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPS Tracking.app/GPS Tracking";
 			};
@@ -411,6 +590,7 @@
 				AAB7DEDA1B9FD4300080C07A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAB7DEDB1B9FD4300080C07A /* Build configuration list for PBXNativeTarget "GPS TrackingTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +599,7 @@
 				AAB7DEDD1B9FD4300080C07A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
