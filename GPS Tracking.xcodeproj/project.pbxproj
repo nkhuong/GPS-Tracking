@@ -14,6 +14,22 @@
 		AAB7DEC61B9FD4300080C07A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB7DEC51B9FD4300080C07A /* Images.xcassets */; };
 		AAB7DEC91B9FD4300080C07A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAB7DEC71B9FD4300080C07A /* LaunchScreen.xib */; };
 		AAB7DED51B9FD4300080C07A /* GPS_TrackingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DED41B9FD4300080C07A /* GPS_TrackingTests.swift */; };
+		AAB7DEE41B9FDA260080C07A /* StringUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DEE11B9FDA260080C07A /* StringUtil.swift */; };
+		AAB7DEE51B9FDA260080C07A /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DEE21B9FDA260080C07A /* SwiftyJSON.swift */; };
+		AAB7DEE61B9FDA260080C07A /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DEE31B9FDA260080C07A /* Toast.swift */; };
+		AAB7DEEC1B9FDA8B0080C07A /* AppSettingEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DEE71B9FDA8B0080C07A /* AppSettingEntity.swift */; };
+		AAB7DEED1B9FDA8B0080C07A /* CommandStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DEE81B9FDA8B0080C07A /* CommandStatus.swift */; };
+		AAB7DEEE1B9FDA8B0080C07A /* InstalledDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DEE91B9FDA8B0080C07A /* InstalledDevice.swift */; };
+		AAB7DEEF1B9FDA8B0080C07A /* SavedDeviceEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DEEA1B9FDA8B0080C07A /* SavedDeviceEntity.swift */; };
+		AAB7DEF01B9FDA8B0080C07A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DEEB1B9FDA8B0080C07A /* User.swift */; };
+		AAB7DEF21B9FDAA90080C07A /* InstallationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DEF11B9FDAA90080C07A /* InstallationInfo.swift */; };
+		AAB7DEFA1B9FDAFF0080C07A /* AppSettingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DEF31B9FDAFF0080C07A /* AppSettingService.swift */; };
+		AAB7DEFB1B9FDAFF0080C07A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DEF41B9FDAFF0080C07A /* Constants.swift */; };
+		AAB7DEFC1B9FDAFF0080C07A /* DeviceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DEF51B9FDAFF0080C07A /* DeviceService.swift */; };
+		AAB7DEFD1B9FDAFF0080C07A /* InstallationRequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DEF61B9FDAFF0080C07A /* InstallationRequestService.swift */; };
+		AAB7DEFE1B9FDAFF0080C07A /* SavedDeviceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DEF71B9FDAFF0080C07A /* SavedDeviceService.swift */; };
+		AAB7DEFF1B9FDAFF0080C07A /* ServiceBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DEF81B9FDAFF0080C07A /* ServiceBase.swift */; };
+		AAB7DF001B9FDAFF0080C07A /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7DEF91B9FDAFF0080C07A /* UserService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +54,22 @@
 		AAB7DECE1B9FD4300080C07A /* GPS TrackingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GPS TrackingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB7DED31B9FD4300080C07A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAB7DED41B9FD4300080C07A /* GPS_TrackingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPS_TrackingTests.swift; sourceTree = "<group>"; };
+		AAB7DEE11B9FDA260080C07A /* StringUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringUtil.swift; sourceTree = "<group>"; };
+		AAB7DEE21B9FDA260080C07A /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		AAB7DEE31B9FDA260080C07A /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		AAB7DEE71B9FDA8B0080C07A /* AppSettingEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSettingEntity.swift; sourceTree = "<group>"; };
+		AAB7DEE81B9FDA8B0080C07A /* CommandStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandStatus.swift; sourceTree = "<group>"; };
+		AAB7DEE91B9FDA8B0080C07A /* InstalledDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstalledDevice.swift; sourceTree = "<group>"; };
+		AAB7DEEA1B9FDA8B0080C07A /* SavedDeviceEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedDeviceEntity.swift; sourceTree = "<group>"; };
+		AAB7DEEB1B9FDA8B0080C07A /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AAB7DEF11B9FDAA90080C07A /* InstallationInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstallationInfo.swift; sourceTree = "<group>"; };
+		AAB7DEF31B9FDAFF0080C07A /* AppSettingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSettingService.swift; sourceTree = "<group>"; };
+		AAB7DEF41B9FDAFF0080C07A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AAB7DEF51B9FDAFF0080C07A /* DeviceService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceService.swift; sourceTree = "<group>"; };
+		AAB7DEF61B9FDAFF0080C07A /* InstallationRequestService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstallationRequestService.swift; sourceTree = "<group>"; };
+		AAB7DEF71B9FDAFF0080C07A /* SavedDeviceService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedDeviceService.swift; sourceTree = "<group>"; };
+		AAB7DEF81B9FDAFF0080C07A /* ServiceBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceBase.swift; sourceTree = "<group>"; };
+		AAB7DEF91B9FDAFF0080C07A /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA76B2B91BA06FE500985565 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AAB7DEC01B9FD4300080C07A /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		AAB7DEAD1B9FD4300080C07A = {
 			isa = PBXGroup;
 			children = (
@@ -79,8 +119,11 @@
 		AAB7DEB81B9FD4300080C07A /* GPS Tracking */ = {
 			isa = PBXGroup;
 			children = (
+				AA76B2B91BA06FE500985565 /* Controller */,
+				AAB7DEE01B9FD9F10080C07A /* Service */,
+				AAB7DEDF1B9FD9EA0080C07A /* Model */,
+				AAB7DEDE1B9FD9E10080C07A /* Util */,
 				AAB7DEBB1B9FD4300080C07A /* AppDelegate.swift */,
-				AAB7DEC01B9FD4300080C07A /* ViewController.swift */,
 				AAB7DEC21B9FD4300080C07A /* Main.storyboard */,
 				AAB7DEC51B9FD4300080C07A /* Images.xcassets */,
 				AAB7DEC71B9FD4300080C07A /* LaunchScreen.xib */,
@@ -113,6 +156,43 @@
 				AAB7DED31B9FD4300080C07A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAB7DEDE1B9FD9E10080C07A /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				AAB7DEE11B9FDA260080C07A /* StringUtil.swift */,
+				AAB7DEE21B9FDA260080C07A /* SwiftyJSON.swift */,
+				AAB7DEE31B9FDA260080C07A /* Toast.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		AAB7DEDF1B9FD9EA0080C07A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AAB7DEF11B9FDAA90080C07A /* InstallationInfo.swift */,
+				AAB7DEE71B9FDA8B0080C07A /* AppSettingEntity.swift */,
+				AAB7DEE81B9FDA8B0080C07A /* CommandStatus.swift */,
+				AAB7DEE91B9FDA8B0080C07A /* InstalledDevice.swift */,
+				AAB7DEEA1B9FDA8B0080C07A /* SavedDeviceEntity.swift */,
+				AAB7DEEB1B9FDA8B0080C07A /* User.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AAB7DEE01B9FD9F10080C07A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				AAB7DEF31B9FDAFF0080C07A /* AppSettingService.swift */,
+				AAB7DEF41B9FDAFF0080C07A /* Constants.swift */,
+				AAB7DEF51B9FDAFF0080C07A /* DeviceService.swift */,
+				AAB7DEF61B9FDAFF0080C07A /* InstallationRequestService.swift */,
+				AAB7DEF71B9FDAFF0080C07A /* SavedDeviceService.swift */,
+				AAB7DEF81B9FDAFF0080C07A /* ServiceBase.swift */,
+				AAB7DEF91B9FDAFF0080C07A /* UserService.swift */,
+			);
+			name = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,9 +295,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB7DEE41B9FDA260080C07A /* StringUtil.swift in Sources */,
+				AAB7DEED1B9FDA8B0080C07A /* CommandStatus.swift in Sources */,
+				AAB7DEEE1B9FDA8B0080C07A /* InstalledDevice.swift in Sources */,
+				AAB7DEE61B9FDA260080C07A /* Toast.swift in Sources */,
+				AAB7DEEF1B9FDA8B0080C07A /* SavedDeviceEntity.swift in Sources */,
 				AAB7DEC11B9FD4300080C07A /* ViewController.swift in Sources */,
+				AAB7DEEC1B9FDA8B0080C07A /* AppSettingEntity.swift in Sources */,
+				AAB7DEF21B9FDAA90080C07A /* InstallationInfo.swift in Sources */,
+				AAB7DEFF1B9FDAFF0080C07A /* ServiceBase.swift in Sources */,
 				AAB7DEBC1B9FD4300080C07A /* AppDelegate.swift in Sources */,
+				AAB7DEFA1B9FDAFF0080C07A /* AppSettingService.swift in Sources */,
+				AAB7DEE51B9FDA260080C07A /* SwiftyJSON.swift in Sources */,
+				AAB7DEFB1B9FDAFF0080C07A /* Constants.swift in Sources */,
+				AAB7DF001B9FDAFF0080C07A /* UserService.swift in Sources */,
 				AAB7DEBF1B9FD4300080C07A /* GPS_Tracking.xcdatamodeld in Sources */,
+				AAB7DEF01B9FDA8B0080C07A /* User.swift in Sources */,
+				AAB7DEFD1B9FDAFF0080C07A /* InstallationRequestService.swift in Sources */,
+				AAB7DEFE1B9FDAFF0080C07A /* SavedDeviceService.swift in Sources */,
+				AAB7DEFC1B9FDAFF0080C07A /* DeviceService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +507,7 @@
 				AAB7DEDA1B9FD4300080C07A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAB7DEDB1B9FD4300080C07A /* Build configuration list for PBXNativeTarget "GPS TrackingTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +516,7 @@
 				AAB7DEDD1B9FD4300080C07A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

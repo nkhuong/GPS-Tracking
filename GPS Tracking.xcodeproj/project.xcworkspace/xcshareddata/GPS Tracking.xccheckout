@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>53C11848-FE5C-45A8-B9B0-E161CB7FBF55</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GPS Tracking</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>487CD7C976BF0416912C671854FD5DC995683A0B</key>
+		<string>https://github.com/nkhuong/GPS-Tracking.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GPS Tracking.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>487CD7C976BF0416912C671854FD5DC995683A0B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/nkhuong/GPS-Tracking.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>487CD7C976BF0416912C671854FD5DC995683A0B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>487CD7C976BF0416912C671854FD5DC995683A0B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GPS%20Tracking</string>
+		</dict>
+	</array>
+</dict>
+</plist>
