@@ -19,7 +19,11 @@ class SavedDeviceService {
         let predicate = NSPredicate(format: "serialNumber = %@", serial)
         request.predicate = predicate
         
+<<<<<<< HEAD
         if let results = (try? global.dbContext!.executeFetchRequest(request)) as? [SavedDeviceEntity] {
+=======
+        if let results = global.dbContext!.executeFetchRequest(request, error: nil) as? [SavedDeviceEntity] {
+>>>>>>> 245be3e6ff50b0b50f2d3a4edd00fc4f434d1ebf
             if !results.isEmpty {
                 info = self.newInfoFromEntity(results[0])
             }
@@ -32,7 +36,11 @@ class SavedDeviceService {
         
         let request = NSFetchRequest(entityName: entityName)
         
+<<<<<<< HEAD
         if let results = (try? global.dbContext!.executeFetchRequest(request)) as? [SavedDeviceEntity] {
+=======
+        if let results = global.dbContext!.executeFetchRequest(request, error: nil) as? [SavedDeviceEntity] {
+>>>>>>> 245be3e6ff50b0b50f2d3a4edd00fc4f434d1ebf
             if results.count > 0 {
                 for device in results {
                     list.append(newInfoFromEntity(device))
@@ -59,11 +67,19 @@ class SavedDeviceService {
     func remove(serialNumber: String, completion: (response: Bool)->()) {
         var success = false
         
+<<<<<<< HEAD
         let request = NSFetchRequest(entityName: entityName)
         let predicate = NSPredicate(format: "serialNumber = %@", serialNumber)
         request.predicate = predicate
         
         if let results = (try? global.dbContext!.executeFetchRequest(request)) as? [SavedDeviceEntity] {
+=======
+        var request = NSFetchRequest(entityName: entityName)
+        let predicate = NSPredicate(format: "serialNumber = %@", serialNumber)
+        request.predicate = predicate
+        
+        if var results = global.dbContext!.executeFetchRequest(request, error: nil) as? [SavedDeviceEntity] {
+>>>>>>> 245be3e6ff50b0b50f2d3a4edd00fc4f434d1ebf
             for device in results {
                 global.dbContext!.deleteObject(device)
                 success = true
@@ -74,7 +90,11 @@ class SavedDeviceService {
     }
     
     private func add(info: InstallationInfo, completion: (response: Bool)->()) {
+<<<<<<< HEAD
         let newItem = NSEntityDescription.insertNewObjectForEntityForName(entityName, inManagedObjectContext: global.dbContext!) as! SavedDeviceEntity
+=======
+        let newItem = NSEntityDescription.insertNewObjectForEntityForName(entityName, inManagedObjectContext: global.dbContext!) as SavedDeviceEntity
+>>>>>>> 245be3e6ff50b0b50f2d3a4edd00fc4f434d1ebf
         
         newItem.serialNumber = info.serialNumber
         newItem.deviceId = NSNumber(longLong: info.deviceId)
@@ -98,6 +118,7 @@ class SavedDeviceService {
         newItem.comment = info.comment
         newItem.starterInterruptInstalled = info.starterInterruptInstalled.boolValue
         
+<<<<<<< HEAD
         do {
             try global.dbContext!.save()
         } catch _ {
@@ -109,6 +130,16 @@ class SavedDeviceService {
         request.predicate = predicate
         
         if var results = (try? global.dbContext!.executeFetchRequest(request)) as? [SavedDeviceEntity] {
+=======
+        global.dbContext!.save(nil)
+    }
+    private func update(info: InstallationInfo, completion: (reponse: Bool)->()) {
+        var request = NSFetchRequest(entityName: entityName)
+        let predicate = NSPredicate(format: "serialNumber = %@", info.serialNumber)
+        request.predicate = predicate
+        
+        if var results = global.dbContext!.executeFetchRequest(request, error: nil) as? [SavedDeviceEntity] {
+>>>>>>> 245be3e6ff50b0b50f2d3a4edd00fc4f434d1ebf
             if results.count > 0 {
                 results[0].serialNumber = info.serialNumber
                 results[0].deviceId = NSNumber(longLong: info.deviceId)
@@ -131,16 +162,24 @@ class SavedDeviceService {
                 results[0].location = info.location
                 results[0].comment = info.comment
                 results[0].starterInterruptInstalled = info.starterInterruptInstalled.boolValue
+<<<<<<< HEAD
                 do {
                     try global.dbContext!.save()
                 } catch _ {
                 }
+=======
+                global.dbContext!.save(nil)
+>>>>>>> 245be3e6ff50b0b50f2d3a4edd00fc4f434d1ebf
             }
         }
     }
     
     private func newInfoFromEntity(entity: SavedDeviceEntity) -> InstallationInfo {
+<<<<<<< HEAD
         let info = InstallationInfo()
+=======
+        var info = InstallationInfo()
+>>>>>>> 245be3e6ff50b0b50f2d3a4edd00fc4f434d1ebf
         
         info.serialNumber = entity.serialNumber
         info.deviceId = entity.deviceId.longLongValue

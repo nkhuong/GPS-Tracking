@@ -58,12 +58,17 @@ class AppSettingService: ServiceBase {
    
     /* ------------------------------- Private Methods -------------------------------- */
     
+<<<<<<< HEAD
     private func getSetting(settingName settingName: String, defaultValue: String) -> String {
+=======
+    private func getSetting(#settingName: String, defaultValue: String) -> String {
+>>>>>>> 245be3e6ff50b0b50f2d3a4edd00fc4f434d1ebf
         var value = defaultValue
         let request = NSFetchRequest(entityName: entityName)
         let predicate = NSPredicate(format: "settingName = %@", settingName)
         request.predicate = predicate
         
+<<<<<<< HEAD
         
         if let results = (try? global.dbContext!.executeFetchRequest(request)) as? [AppSettingEntity] {
             if !results.isEmpty {
@@ -72,11 +77,19 @@ class AppSettingService: ServiceBase {
             } else { //add a new record
                 insertSetting(settingName: settingName, settingValue: defaultValue)
                 print("Insert \(settingName)")
+=======
+        if let results = global.dbContext!.executeFetchRequest(request, error: nil) as? [AppSettingEntity] {
+            if !results.isEmpty {
+                value = results[0].settingValue
+            } else { //add a new record
+                insertSetting(settingName: settingName, settingValue: defaultValue)
+>>>>>>> 245be3e6ff50b0b50f2d3a4edd00fc4f434d1ebf
             }
         }
         return value
     }
     
+<<<<<<< HEAD
     private func insertSetting(settingName settingName: String, settingValue: String) {
         let newItem = NSEntityDescription.insertNewObjectForEntityForName(entityName, inManagedObjectContext: global.dbContext!) as! AppSettingEntity
         newItem.settingName = settingName
@@ -100,6 +113,25 @@ class AppSettingService: ServiceBase {
                     try global.dbContext!.save()
                 } catch _ {
                 }
+=======
+    private func insertSetting(#settingName: String, settingValue: String) {
+        let newItem = NSEntityDescription.insertNewObjectForEntityForName(entityName, inManagedObjectContext: global.dbContext!) as AppSettingEntity
+        newItem.settingName = settingName
+        newItem.settingValue = settingValue
+        
+        global.dbContext!.save(nil)
+    }
+    
+    private func saveSetting(#settingName: String, settingValue: String) {
+        var request = NSFetchRequest(entityName: entityName)
+        let predicate = NSPredicate(format: "settingName = %@", settingName)
+        request.predicate = predicate
+        
+        if var results = global.dbContext!.executeFetchRequest(request, error: nil) as? [AppSettingEntity] {
+            if results.count > 0 {
+                results[0].settingValue = settingValue
+                global.dbContext!.save(nil)
+>>>>>>> 245be3e6ff50b0b50f2d3a4edd00fc4f434d1ebf
             }
         }
     }

@@ -21,7 +21,11 @@ class InstallationRequestService : ServiceBase {
                 } else {
                     let data = JSON(jsonData!)
                     
+<<<<<<< HEAD
                     for (key, aRequest): (String, JSON) in data["RequestsList"] {
+=======
+                    for (key: String, aRequest: JSON) in data["RequestsList"] {
+>>>>>>> 245be3e6ff50b0b50f2d3a4edd00fc4f434d1ebf
                         var installationRequest = InstallationInfo()
                         installationRequest.deviceId = aRequest["TObjectId"].int64Value
                         installationRequest.deviceName = aRequest["DeviceName"].stringValue
@@ -46,7 +50,11 @@ class InstallationRequestService : ServiceBase {
         }
     }
     
+<<<<<<< HEAD
     func createInstallationRequest (userId userId: Int64, serial: String, reInstalled: Bool, completion: (response: InstallationInfo?)->()) {
+=======
+    func createInstallationRequest (#userId: Int64, serial: String, reInstalled: Bool, completion: (response: InstallationInfo?)->()) {
+>>>>>>> 245be3e6ff50b0b50f2d3a4edd00fc4f434d1ebf
         var info: InstallationInfo? = nil
         
         let url = getServiceURL(ServiceURL.CreateInstallationRequest)
@@ -91,7 +99,11 @@ class InstallationRequestService : ServiceBase {
         }
     }
     
+<<<<<<< HEAD
     func completeInstallationRequest (info info: InstallationInfo, user: User, completion: (response: Bool) -> ()) {
+=======
+    func completeInstallationRequest (#info: InstallationInfo, user: User, completion: (response: Bool) -> ()) {
+>>>>>>> 245be3e6ff50b0b50f2d3a4edd00fc4f434d1ebf
         var successResult = false
         let url = getServiceURL(ServiceURL.CompleteInstallationRequest)
         
@@ -145,7 +157,11 @@ class InstallationRequestService : ServiceBase {
         }
     }
     
+<<<<<<< HEAD
     func deleteInstallationRequest (token token: String, installToken: String, completion: (response: Bool)->()) {
+=======
+    func deleteInstallationRequest (#token: String, installToken: String, completion: (response: Bool)->()) {
+>>>>>>> 245be3e6ff50b0b50f2d3a4edd00fc4f434d1ebf
         var successResult = false
         let url = getServiceURL(ServiceURL.DeleteInstallationRequest) + "/" + token + "/" + installToken
         Alamofire.manager.request(.GET, url, encoding: .JSON)
@@ -194,7 +210,11 @@ class InstallationRequestService : ServiceBase {
     Total: 3
     }
     */
+<<<<<<< HEAD
     func report(token token: String, startDate: String, endDate: String, pageIndex: Int, pageCount: Int, completion: (response:[InstalledDevice]) -> ()) {
+=======
+    func report(#token: String, startDate: String, endDate: String, pageIndex: Int, pageCount: Int, completion: (response:[InstalledDevice]) -> ()) {
+>>>>>>> 245be3e6ff50b0b50f2d3a4edd00fc4f434d1ebf
         var installedDeviceList: [InstalledDevice] = []
         let url = getServiceURL(ServiceURL.Report) + "/\(token)/\(startDate)/\(endDate)/\(pageIndex)/\(pageCount)"
         Alamofire.manager.request(.GET, url, encoding: .JSON)
@@ -207,7 +227,11 @@ class InstallationRequestService : ServiceBase {
                     let data = JSON(jsonData!)
                     
                     if data != nil {
+<<<<<<< HEAD
                         for (key, aDevice): (String, JSON) in data["InstallDevices"] {
+=======
+                        for (key: String, aDevice: JSON) in data["InstallDevices"] {
+>>>>>>> 245be3e6ff50b0b50f2d3a4edd00fc4f434d1ebf
                             var device = InstalledDevice()
                             device.installDate = NSDate(jsonDate: aDevice["Install_Date"].stringValue)
                             device.installerName = aDevice["Installer_Name"].stringValue

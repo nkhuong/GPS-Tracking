@@ -10,6 +10,7 @@ import Foundation
 
 class UserService : ServiceBase {
     //User Login
+<<<<<<< HEAD
     func login(userName userName: String, password: String, completion: (response: User?) -> ()){
         var user: User? = nil
         let url = getServiceURL(ServiceURL.Login) + "/" + userName + "/" + password
@@ -19,6 +20,13 @@ class UserService : ServiceBase {
                 println(request)
                 println(response)
                 println(jsonData)
+=======
+    func login(#userName: String, password: String, completion: (response: User?) -> ()){
+        var user: User? = nil
+        let url = getServiceURL(ServiceURL.Login) + "/" + userName + "/" + password
+        Alamofire.manager.request(.GET, url, encoding: .JSON)
+            .responseJSON {(request, response, jsonData, error) in
+>>>>>>> 245be3e6ff50b0b50f2d3a4edd00fc4f434d1ebf
                 if error != nil {
                     self.errorCode = 404
                     self.errorMessage = "Service Connection failed! Please try again."

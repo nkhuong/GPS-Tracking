@@ -131,6 +131,7 @@
 		AA76B2B91BA06FE500985565 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				AA4D02701BA89B5700FEFD9D /* CustomCell.swift */,
 				AA4D026E1BA89B2A00FEFD9D /* InstallRequestController.swift */,
 				AA4D026C1BA89AFE00FEFD9D /* TestDeviceCommandController.swift */,
@@ -145,6 +146,9 @@
 				AAB7DEC01B9FD4300080C07A /* ViewController.swift */,
 				AAA6A2DC1BA39D4200CF15A6 /* DashBoardController.swift */,
 				AA82E0391BA70B8100369E75 /* TestController.swift */,
+=======
+				AAB7DEC01B9FD4300080C07A /* ViewController.swift */,
+>>>>>>> 245be3e6ff50b0b50f2d3a4edd00fc4f434d1ebf
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -212,11 +216,14 @@
 		AAB7DEDE1B9FD9E10080C07A /* Util */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				AA76B2BE1BA074EA00985565 /* DateUtil.swift */,
 				AA76B2BF1BA074EA00985565 /* Reachability.swift */,
 				AA76B2C01BA074EA00985565 /* ResponsiveTextFieldViewController.swift */,
 				AA76B2C11BA074EA00985565 /* TextFieldScrollingController.swift */,
 				AA76B2BC1BA0746400985565 /* Alamofire.swift */,
+=======
+>>>>>>> 245be3e6ff50b0b50f2d3a4edd00fc4f434d1ebf
 				AAB7DEE11B9FDA260080C07A /* StringUtil.swift */,
 				AAB7DEE21B9FDA260080C07A /* SwiftyJSON.swift */,
 				AAB7DEE31B9FDA260080C07A /* Toast.swift */,
@@ -240,7 +247,10 @@
 		AAB7DEE01B9FD9F10080C07A /* Service */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				AA4D026A1BA89ADE00FEFD9D /* VinService.swift */,
+=======
+>>>>>>> 245be3e6ff50b0b50f2d3a4edd00fc4f434d1ebf
 				AAB7DEF31B9FDAFF0080C07A /* AppSettingService.swift */,
 				AAB7DEF41B9FDAFF0080C07A /* Constants.swift */,
 				AAB7DEF51B9FDAFF0080C07A /* DeviceService.swift */,
@@ -354,6 +364,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				AA4D02691BA89AB800FEFD9D /* BarcodeDetectionController.swift in Sources */,
 				AA4D026D1BA89AFE00FEFD9D /* TestDeviceCommandController.swift in Sources */,
 				AAA6A2DF1BA39D8900CF15A6 /* SettingController.swift in Sources */,
@@ -376,10 +387,21 @@
 				AAB7DEEC1B9FDA8B0080C07A /* AppSettingEntity.swift in Sources */,
 				AAB7DEF21B9FDAA90080C07A /* InstallationInfo.swift in Sources */,
 				AA76B2BB1BA0739500985565 /* Global.swift in Sources */,
+=======
+				AAB7DEE41B9FDA260080C07A /* StringUtil.swift in Sources */,
+				AAB7DEED1B9FDA8B0080C07A /* CommandStatus.swift in Sources */,
+				AAB7DEEE1B9FDA8B0080C07A /* InstalledDevice.swift in Sources */,
+				AAB7DEE61B9FDA260080C07A /* Toast.swift in Sources */,
+				AAB7DEEF1B9FDA8B0080C07A /* SavedDeviceEntity.swift in Sources */,
+				AAB7DEC11B9FD4300080C07A /* ViewController.swift in Sources */,
+				AAB7DEEC1B9FDA8B0080C07A /* AppSettingEntity.swift in Sources */,
+				AAB7DEF21B9FDAA90080C07A /* InstallationInfo.swift in Sources */,
+>>>>>>> 245be3e6ff50b0b50f2d3a4edd00fc4f434d1ebf
 				AAB7DEFF1B9FDAFF0080C07A /* ServiceBase.swift in Sources */,
 				AAB7DEBC1B9FD4300080C07A /* AppDelegate.swift in Sources */,
 				AAB7DEFA1B9FDAFF0080C07A /* AppSettingService.swift in Sources */,
 				AAB7DEE51B9FDA260080C07A /* SwiftyJSON.swift in Sources */,
+<<<<<<< HEAD
 				AA76B2C31BA074EA00985565 /* Reachability.swift in Sources */,
 				AAA6A2DD1BA39D4200CF15A6 /* DashBoardController.swift in Sources */,
 				AAB7DEFB1B9FDAFF0080C07A /* Constants.swift in Sources */,
@@ -392,6 +414,15 @@
 				AAB7DEFE1B9FDAFF0080C07A /* SavedDeviceService.swift in Sources */,
 				AAB7DEFC1B9FDAFF0080C07A /* DeviceService.swift in Sources */,
 				AA82E03A1BA70B8100369E75 /* TestController.swift in Sources */,
+=======
+				AAB7DEFB1B9FDAFF0080C07A /* Constants.swift in Sources */,
+				AAB7DF001B9FDAFF0080C07A /* UserService.swift in Sources */,
+				AAB7DEBF1B9FD4300080C07A /* GPS_Tracking.xcdatamodeld in Sources */,
+				AAB7DEF01B9FDA8B0080C07A /* User.swift in Sources */,
+				AAB7DEFD1B9FDAFF0080C07A /* InstallationRequestService.swift in Sources */,
+				AAB7DEFE1B9FDAFF0080C07A /* SavedDeviceService.swift in Sources */,
+				AAB7DEFC1B9FDAFF0080C07A /* DeviceService.swift in Sources */,
+>>>>>>> 245be3e6ff50b0b50f2d3a4edd00fc4f434d1ebf
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

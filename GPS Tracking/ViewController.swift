@@ -11,6 +11,7 @@ import CoreData
 
 class ViewController: UIViewController {
 
+<<<<<<< HEAD
     var userService: UserService = UserService()
     var installService: InstallationRequestService = InstallationRequestService()
     var savedDeviceService: SavedDeviceService = SavedDeviceService()
@@ -20,10 +21,15 @@ class ViewController: UIViewController {
     
     
     @IBOutlet weak var txtUserName: UITextField!
+=======
+    
+    @IBOutlet weak var txtUseName: UITextField!
+>>>>>>> 245be3e6ff50b0b50f2d3a4edd00fc4f434d1ebf
     @IBOutlet weak var txtPassword: UITextField!
     
     @IBAction func Login(sender: AnyObject) {
         
+<<<<<<< HEAD
         //check internet connection
         if !Reachability.isConnectedToNetwork() {
             self.view.makeToast(message: NoInterNetConnection)
@@ -59,6 +65,8 @@ class ViewController: UIViewController {
             self.view.makeToast(message: "Please enter username and password!")
         }
         
+=======
+>>>>>>> 245be3e6ff50b0b50f2d3a4edd00fc4f434d1ebf
     }
     
     @IBAction func Registration(sender: AnyObject) {
@@ -67,6 +75,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+<<<<<<< HEAD
 
         //set background image
 //        let navBackgroundImage:UIImage! = UIImage(named: "top_bar_bg")
@@ -81,6 +90,10 @@ class ViewController: UIViewController {
         global.baseURL = settingService.getWebServiceURL()
 
         txtUserName.text = "kphan"
+=======
+        
+        txtUseName.text = "kphan"
+>>>>>>> 245be3e6ff50b0b50f2d3a4edd00fc4f434d1ebf
         txtPassword.text = "kphan123"
     }
 

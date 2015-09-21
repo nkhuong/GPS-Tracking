@@ -10,7 +10,11 @@ import Foundation
 
 class DeviceService: ServiceBase {
     //send general
+<<<<<<< HEAD
     func sendRequest(loginToken loginToken: String, authToken: String, serial: String, commandType: Commands, completion: (response: Int)->()) {
+=======
+    func sendRequest(#loginToken: String, authToken: String, serial: String, commandType: Commands, completion: (response: Int)->()) {
+>>>>>>> 245be3e6ff50b0b50f2d3a4edd00fc4f434d1ebf
         switch (commandType) {
         case Commands.LOCATE: //Locate
             self.locate(loginToken: loginToken, authToken: authToken, serial: serial) {transactionId in
@@ -70,7 +74,11 @@ class DeviceService: ServiceBase {
     }
     
     //Locate
+<<<<<<< HEAD
     private func locate(loginToken loginToken: String, authToken: String, serial: String, completion: (response: Int) -> ()){
+=======
+    private func locate(#loginToken: String, authToken: String, serial: String, completion: (response: Int) -> ()){
+>>>>>>> 245be3e6ff50b0b50f2d3a4edd00fc4f434d1ebf
         let url = getServiceURL(ServiceURL.Locate)
         sendCommand(url, loginToken, authToken, serial, "locateBySerialResult") {result in
             completion(response: result)
@@ -78,7 +86,11 @@ class DeviceService: ServiceBase {
     }
     
     //Enable Late Payment
+<<<<<<< HEAD
     private func enableBuzzer(loginToken loginToken: String, authToken: String, serial: String, completion: (response: Int) -> ()){
+=======
+    private func enableBuzzer(#loginToken: String, authToken: String, serial: String, completion: (response: Int) -> ()){
+>>>>>>> 245be3e6ff50b0b50f2d3a4edd00fc4f434d1ebf
         let url = getServiceURL(ServiceURL.EnableLatePayment)
         sendCommand(url, loginToken, authToken, serial, "enableLatePaymentBySerialResult") {result in
             completion(response: result)
@@ -86,7 +98,11 @@ class DeviceService: ServiceBase {
     }
     
     //Disable Late Payment
+<<<<<<< HEAD
     private func disableBuzzer(loginToken loginToken: String, authToken: String, serial: String, completion: (response: Int) -> ()){
+=======
+    private func disableBuzzer(#loginToken: String, authToken: String, serial: String, completion: (response: Int) -> ()){
+>>>>>>> 245be3e6ff50b0b50f2d3a4edd00fc4f434d1ebf
         let url = getServiceURL(ServiceURL.DisableLatePayment)
         sendCommand(url, loginToken, authToken, serial, "disableLatePaymentBySerialResult") {result in
             completion(response: result)
@@ -94,7 +110,11 @@ class DeviceService: ServiceBase {
     }
     
     //Enable Starter
+<<<<<<< HEAD
     private func enableStarter(loginToken loginToken: String, authToken: String, serial: String, completion: (response: Int) -> ()){
+=======
+    private func enableStarter(#loginToken: String, authToken: String, serial: String, completion: (response: Int) -> ()){
+>>>>>>> 245be3e6ff50b0b50f2d3a4edd00fc4f434d1ebf
         let url = getServiceURL(ServiceURL.EnableStarter)
         sendCommand(url, loginToken, authToken, serial, "enableStarterBySerialResult") {result in
             completion(response: result)
@@ -102,7 +122,11 @@ class DeviceService: ServiceBase {
     }
     
     //Disable Starter
+<<<<<<< HEAD
     private func disableStarter(loginToken loginToken: String, authToken: String, serial: String, completion: (response: Int) -> ()){
+=======
+    private func disableStarter(#loginToken: String, authToken: String, serial: String, completion: (response: Int) -> ()){
+>>>>>>> 245be3e6ff50b0b50f2d3a4edd00fc4f434d1ebf
         let url = getServiceURL(ServiceURL.DisableStarter)
         sendCommand(url, loginToken, authToken, serial, "disableStarterBySerialResult") {result in
             completion(response: result)
@@ -110,7 +134,11 @@ class DeviceService: ServiceBase {
     }
     
     //Check Command Status
+<<<<<<< HEAD
     func checkCommandStatus(authToken authToken: String, transactionId: Int, completion: (response: CommandStatus?) -> ()){
+=======
+    func checkCommandStatus(#authToken: String, transactionId: Int, completion: (response: CommandStatus?) -> ()){
+>>>>>>> 245be3e6ff50b0b50f2d3a4edd00fc4f434d1ebf
         var commandStatus: CommandStatus? = nil
         
         let url = getServiceURL(ServiceURL.CommandStatus) + "/" + authToken + "/\(transactionId)"
